@@ -1,6 +1,90 @@
+/* -- HEADER -- */
+div#header {
+    background-color: #4d4d4d;
+}
+
+div#header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21pt;
+    color: #A7A7A7;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
 /* -- LOGIN -- */
-form#formLogin{
-    width: 20%;
+div#boxLogin {
     margin: 0 auto;
     margin-top: 15%;
+    width: 50%;
+    padding: 20px;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    box-shadow: 0em 0em 3px #000; 
+}
+
+form#formLogin {
+    width: 90%;
+    margin: 0 auto;
+    //margin-top: 15%;
+}
+
+/* -- HOME -- */
+div#top {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+#topLeft {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+
+#topCenter {
+    width: 48%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    margin-left: 1%;
+}
+
+#topRight {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    float: left;
+    margin-left: 1%;
+}
+
+div#bottom {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 200px;
+}
+
+#bottomLeft {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+
+#bottomCenter {
+    width: 48%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    margin-left: 1%;
+}
+
+#bottomRight {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    float: left;
+    margin-left: 1%;
 }

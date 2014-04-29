@@ -15,15 +15,21 @@
         <title>Estacionamento Basanela</title>
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="jquery/alertify_0.3.11/css/alertify.core.css"/>
+        <link rel="stylesheet" type="text/css" href="jquery/alertify_0.3.11/css/alertify.bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/default.css"/>
         <!-- JS -->
         <script type="text/javascript" src="jquery/jquery_1.11.0/jquery_1.11.0.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="jquery/alertify_0.3.11/js/alertify.js"></script>
         <script type="text/javascript" src="js/init.js"></script>
         <script type="text/javascript" src="js/initLogin.js"></script>
     </head>
     <body>
-        <div id="conteudo">
+        <div id="header">
+            <h1><strong>Estacionamento Basanela</strong></h1>
+        </div>
+        <div id="boxLogin">
             <form id="formLogin" action="javascript:;">
                 <div class="form-group">
                     <label for="input_operador">Operador</label>
